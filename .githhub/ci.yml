@@ -10,7 +10,7 @@ jobs:
         run: echo "Hello from GitHub Actions"
         
       - name: Get the code
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
         
       - name: List the files
-        run: ls 
+        run: ls -la
